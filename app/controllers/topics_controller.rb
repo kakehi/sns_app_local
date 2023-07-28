@@ -4,15 +4,15 @@ class TopicsController < ApplicationController
     end
     
     def create
-    redirect_to 'topics/new'
+        render :new
     end
 
     def edit
-    render :edit
+        render :edit
     end
 
     def update
-    redirect_to 'topics/edit'
+        render :edit
     end
-    
+
 end
